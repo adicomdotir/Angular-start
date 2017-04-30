@@ -2,6 +2,8 @@ import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 
 import { AppComponent } from './app.component';
+import { AdminComponent } from "app/admin/admin.component";
+import { NO_ERRORS_SCHEMA } from "@angular/core";
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -12,6 +14,7 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent
       ],
+      schemas: [NO_ERRORS_SCHEMA]
     }).compileComponents();
   }));
 

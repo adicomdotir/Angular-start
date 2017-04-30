@@ -5,15 +5,21 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { CustomerComponent } from './customer/customer.component';
+import { AdminModule } from "app/admin/admin.module";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DashboardComponent,
+    CustomerComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    AdminModule,
     AppRoutingModule
   ],
   providers: [],

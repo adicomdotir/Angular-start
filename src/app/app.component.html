@@ -1,4 +1,12 @@
 <h1>
   {{title}}
 </h1>
-<router-outlet></router-outlet>
+<nav>
+  <ul>
+    <li><a href="" [routerLink]="['/dashboard']">Dashboard</a></li>
+    <li><a href="" [routerLink]="['/customer']">Customer</a></li>
+  </ul>
+</nav>
+<div style="background-color:aqua; text-align:center; padding:10px;">
+  <router-outlet></router-outlet>
+</div>
