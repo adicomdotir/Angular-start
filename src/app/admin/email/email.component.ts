@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 
 export class EmailComponent implements OnInit {
 
+  constructor() { }
+
   ngOnInit() {
   }
 
